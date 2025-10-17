@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 RSpec.describe Decentralize do
   it "has a version number" do
     expect(Decentralize::VERSION).not_to be_nil
