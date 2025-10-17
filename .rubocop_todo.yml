@@ -9,15 +9,12 @@
 # Offense count: 1
 # This cop supports safe autocorrection (--autocorrect).
 # Configuration parameters: Severity.
-Gemspec/RequireMFA:
-  Exclude:
-    - 'decentralize.gemspec'
 
 # Offense count: 1
 # This cop supports unsafe autocorrection (--autocorrect-all).
 RSpec/BeEq:
   Exclude:
-    - 'spec/decentralize_spec.rb'
+    - "spec/decentralize_spec.rb"
 
 # Offense count: 1
 # This cop supports safe autocorrection (--autocorrect).
@@ -25,13 +22,13 @@ RSpec/BeEq:
 # SupportedStyles: be, be_nil
 RSpec/BeNil:
   Exclude:
-    - 'spec/decentralize_spec.rb'
+    - "spec/decentralize_spec.rb"
 
 # Offense count: 1
 # This cop supports safe autocorrection (--autocorrect).
 RSpec/ExpectActual:
   Exclude:
-    - 'spec/decentralize_spec.rb'
+    - "spec/decentralize_spec.rb"
 
 # Offense count: 7
 # This cop supports unsafe autocorrection (--autocorrect-all).
@@ -39,13 +36,13 @@ RSpec/ExpectActual:
 # SupportedStyles: always, always_true, never
 Style/FrozenStringLiteralComment:
   Exclude:
-    - 'Rakefile'
-    - 'bin/console'
-    - 'decentralize.gemspec'
-    - 'lib/decentralize.rb'
-    - 'lib/decentralize/version.rb'
-    - 'spec/decentralize_spec.rb'
-    - 'spec/spec_helper.rb'
+    - "Rakefile"
+    - "bin/console"
+    - "decentralize.gemspec"
+    - "lib/decentralize.rb"
+    - "lib/decentralize/version.rb"
+    - "spec/decentralize_spec.rb"
+    - "spec/spec_helper.rb"
 
 # Offense count: 27
 # This cop supports safe autocorrection (--autocorrect).
@@ -53,10 +50,10 @@ Style/FrozenStringLiteralComment:
 # SupportedStyles: single_quotes, double_quotes
 Style/StringLiterals:
   Exclude:
-    - 'Rakefile'
-    - 'bin/console'
-    - 'decentralize.gemspec'
-    - 'lib/decentralize.rb'
-    - 'lib/decentralize/version.rb'
-    - 'spec/decentralize_spec.rb'
-    - 'spec/spec_helper.rb'
+    - "Rakefile"
+    - "bin/console"
+    - "decentralize.gemspec"
+    - "lib/decentralize.rb"
+    - "lib/decentralize/version.rb"
+    - "spec/decentralize_spec.rb"
+    - "spec/spec_helper.rb"
