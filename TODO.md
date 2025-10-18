@@ -21,15 +21,15 @@ gem 'my_gist', gist: '4815162342'
 
 Reference: https://bundler.io/guides/git.html
 
-# Unorganized tasks
+## Unorganized tasks
 
-- [ ] Use Bundler to analyze and understand Gemfile
-- [ ] Check for already installed gems in Gemfile
-  - [ ] Use their .gemspec for remote repo info
-- [ ] Fetch remote gemspecs
-  - [ ] Or scrape gem host for gem remote repo info
-- [ ] For each gem repo, figure out how to does versioning
-  - [ ] Tags, branches, GitHub Releases, some other secret third thing
-- [ ] How to handle private repositories?
-- [ ] Add git keyword args to `gem` lines in Gemfile
-  - [ ] Try to maintain existing formatting
+- [_] Use Bundler to analyze and understand Gemfile
+- [_] Check for already installed gems in Gemfile
+    - [_] Use their .gemspec for remote repo info
+    - [_] Fetch remote gemspecs
+    - [_] Or scrape gem host for gem remote repo info
+    - [_] For each gem repo, figure out how to does versioning
+    - [_] Tags, branches, GitHub Releases, some other secret third thing
+    - [_] How to handle private repositories?
+    - [_] Add git keyword args to `gem` lines in Gemfile
+    - [_] Try to maintain existing formatting
