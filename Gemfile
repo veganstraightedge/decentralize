@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'irb'
+gem 'mdl', '~> 0.13'
 gem 'rake',  '~> 13.3'
 gem 'rspec', '~> 3.13'
 

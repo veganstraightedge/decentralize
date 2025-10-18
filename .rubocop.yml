@@ -28,3 +28,6 @@ Style/Documentation:
 
 Style/FrozenStringLiteralComment:
   EnforcedStyle: never
+
+Style/MethodDefParentheses:
+  EnforcedStyle: require_no_parentheses
