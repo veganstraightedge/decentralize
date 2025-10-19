@@ -1,0 +1,3 @@
+source 'https://rubygems.org'
+
+gem 'rake', tag: 'v13.3.0', github: 'ruby/rake'

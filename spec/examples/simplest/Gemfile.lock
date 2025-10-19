@@ -1,0 +1,28 @@
+GIT
+  remote: https://github.com/ruby/rake.git
+  revision: 7da1699a9e0eb24cb646ec6a3bc710897343da82
+  tag: v13.3.0
+  specs:
+    rake (13.3.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  aarch64-linux
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-musl
+  arm64-darwin
+  x86_64-darwin
+  x86_64-linux
+  x86_64-linux-gnu
+  x86_64-linux-musl
+
+DEPENDENCIES
+  rake!
+
+BUNDLED WITH
+   2.7.2
